@@ -211,7 +211,7 @@ padding: 1em }
     box-shadow: var(--bs);
 }
 
-
+/**/
 @media (min-width: 600px) 
 {
 .intro  { 
@@ -344,13 +344,46 @@ padding: 1em }
 
 
 
-.about-me__img{
-    grid-area: img;
-    position: relative;
-    z-index: 2;
+    .about-me__img
+    {
+     grid-area: img;
+     position: relative;
+     z-index: 2;
+    }
 }
 
+
+
+/*New-Project*/
+
+.new_Project_Banner
+{
+background:  black;
+text-align: center;
 }
+
+.section_title--newProject
+{
+  text-align: center;
+}
+
+.new_Project_text {
+    
+color: limegreen;
+padding: 0px;
+text-align: center;
+
+
+}
+
+.Project_FAQ
+{
+
+    text-align: center; 
+
+}
+
+
 
 
 /*work work*/
