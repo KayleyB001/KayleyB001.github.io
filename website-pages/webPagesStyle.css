@@ -1,0 +1,109 @@
+
+
+body
+{
+    background-image: url("/img/bruno-leschi-RU9dL9_mn04-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    
+}
+
+#row-2
+{
+  padding-top: 20px;
+}
+
+
+#web-page-container
+{
+    width: fit-content;
+   
+}
+
+.Title {
+    z-index: index 1;
+    
+    color: #04AA6D;
+       
+      font-size: 500%;
+      text-align: center;
+      text-shadow: 0px 4px 8px rgba(0, 0, 0, 1),
+      0px -4px 8px rgba(0, 0, 0, 1),
+             -1px 8px 15px rgb(0, 0, 0);
+            
+      
+
+      position: relative;
+  }
+
+
+
+#box1
+{ 
+  color: white;
+  filter: blur(2px);
+  transition: transform 0.7s
+  
+
+
+
+}
+
+
+#box1:hover
+{ 
+  color: white;
+  transition: transform 1.5s;
+  transition: transform 0.7s cubic-bezier(.5, 0, .5, 1),opacity 250ms linear;
+    transform: scale(1.1);
+    filter: none;
+
+}
+#box2
+{ 
+  color: white;
+  filter: blur(2px);
+  transition: transform 0.7s
+  
+
+
+
+}
+
+#box2:hover
+{ 
+  color: white;
+  transition: transform 1.5s;
+  transition: transform 0.7s cubic-bezier(.5, 0, .5, 1),opacity 250ms linear;
+    transform: scale(1.1);
+    filter: none;
+
+}
+
+#box-before-1
+{
+    color: white;
+  filter: blur(2px);
+  transition: transform 0.7s
+}
+
+#box-before-1:hover
+{ 
+  color: white;
+  transition: transform 1.5s;
+  transition: transform 0.7s cubic-bezier(.5, 0, .5, 1),opacity 250ms linear;
+    transform: scale(1.1);
+    filter: none;
+
+}
+
+img
+{
+    
+
+    box-shadow: 2px 39px 80px 16px rgba(0,0,0,0.75);
+    
+    
+}
+
